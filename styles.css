@@ -1,7 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
+    border: 0;
+    text-decoration: none;
 }
+html {
+    font-family: 'DM Sans', sans-serif;
+}
+body{
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2f1c6a;
+}
+/* nav (victor) */
+
 .conteiner{
     background-color: rgb(112, 39, 180);
     color: white;
@@ -28,9 +42,117 @@
     top: 18px;
     left: 10px;
 }
+
+/* chava */
+
+/* block 1 */
+.main{}
+.main__homepage{}
+.main__header{}
+
+
+.main__grid-column{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-right: 11.2em;
+    padding-left: 11.2em;
+    padding-top: 7.3em;
+}
+.main__two-cols{
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+}
+.main__cols-left{}
+.main__cols-right{}
+
+/* cols-left, block 2 */
+
+.cols-left{
+    display: block;
+    background-color: antiquewhite;
+    line-height: 9em;
+    width: 10em;
+}
+.cols-left__feature{
+    font-weight: 450;
+}
+.cols-left__h1{
+    display: block;
+    font-size: 1.6em;
+    font-weight: 580;
+    line-height: 1em;
+}
+.cols-left__overline{
+    line-height: 2.5em
+}
+.cols-left__purple{
+    color: #673de6;
+}
+.cols-left__service{
+    font-size: 0.7em;
+    font-weight: 400;
+    line-height: 2em;
+}
+.cols-left__item{
+}
+.cols-left__item-support{
+}
+.cols-left__section-price{
+}
+.cols-left__number{
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 2em;
+}
+.cols-left__price{
+}
+.cols-left__duration-countdown{
+    font-size: 0.8em;
+    font-weight: 600;
+    line-height: 1em;
+}
+.cols-left__time{
+}
+.cols-left__p{
+}
+.cols-left__count{
+}
+
+.cols-left__buys{
+}
+.cols-left__button-push{
+    background-color: #673de6;
+    color: #fff;
+    padding: 0.7em;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    width: 90%;
+}
+.cols-left__service-end{
+    font-size: 0.7em;
+    font-weight: 400;
+    line-height: 3em;
+}
+.cols-left__warranty{
+}
+
+/* cols-right, block 3*/
+
+.cols-right{}
+.cols-right__picture{}
+
+.cols-right__img{
+    width:558px;
+    height: 352px;
+}
+
+/* sisos */
+
 .subtitle{
     text-align: center;
     font-size: 2em;
+    padding-top: 40px;
 }
 .conteiner1{
     display: flex;
@@ -51,9 +173,9 @@ h3{
     position: relative;
     top: 20px;
     padding: 25px;
-¡}
+}
 del{
-    padding:20px;
+    padding: 20px;
 }
 .precio{
     font-size: 1.4em;
